@@ -1,0 +1,182 @@
+body{
+margin: 0 auto;
+}
+  section.top-page{
+
+   background:url("../image/nature-wallpapers-hd.webp"); 
+   height: 100vh;
+   background-size: cover;
+   padding: 25px;
+}
+/*tete de page */
+header.header{
+    display: flex;
+    align-items: center;
+}
+header.header img{
+    width: 150px; ;
+}
+/*menu de navigation*/
+nav.nav{
+display: flex;
+list-style: none;
+margin-left:30px;
+justify-content: space-between;
+width: 400px;
+
+}
+nav.nav li{
+    color: white;
+}
+
+.nav.nav li :hover{
+color: gold;
+font-size: 30px;
+}
+/*landing page*/
+.landing-page{
+    padding: 20px 50px;
+}
+.big-title{
+    font-family: 'Abril FateFace',cursive;
+    color: aliceblue;
+   font-size: 80px; 
+   
+
+}
+
+@import url( https://fonts.google.com/specimen/Montserrat?query=monts );
+*{
+    font-family:'Montserrat';
+}
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+.scroll-down{
+color: aliceblue;
+text-decoration: none;
+position: absolute;
+bottom:0px ;
+font-size: 30px;
+}
+
+.half{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding :40px;
+    background-color: rgba(0, 128, 0, 0.356);
+}
+.dif-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-image: 16px;
+
+}
+.dif-item img{
+position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 500px;
+    min-height: -100vh;
+}
+
+ .dif-title{
+    font-weight: 900px;
+    font-size: 40px;
+    width: 200px;
+    color:rgb(165, 104, 42);
+    text-align: center;
+ }
+ 
+  
+ .dif-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-image: 16px;
+
+}
+.login-details{
+    font-weight: 900px;
+    font-size: 40px;
+    width: 200px;
+    color:rgb(165, 104, 42);
+    text-align: center;
+ }
+.inputbox{
+    position: relative;
+    width:250px ;
+
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background:#1d2b3a ;
+    border-radius: 5px;
+    outline: none;
+    color: aliceblue;
+    font-size: 2em;
+    transition:1s ;
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size:1.5em;
+    color: rgba(255,255,255,0.25);
+    text-transform: lowercase;
+    transition:0.5s ;
+
+}
+.inputbox input :valid~ span,
+.inputbox input:focus~ span
+ {
+
+color:black;
+transform:  translateX(10%) translateY(-7px);
+font-size: 0.65em;
+padding: 0 30px;
+background:rgb(165, 104, 42);
+border-left: 1px solid #00dfc4;
+border-right:1px solid #00dfc4 ;
+letter-spacing:0.2em ;
+
+}
+.inputbox input:valid,
+.inputbox input:focus{
+    border: 1px solid #00dfc4;
+}
+.submit button{
+    position: relative;
+    top: 20px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px ;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.174);
+    
+}
+.submit p{
+    font-size:20px ;
+    color: azure;
+
+}
+.submit button:hover{
+    padding:30px;
+    margin: 10px;
+    background: rgba(76, 1, 1, 0.712);
+    transition: 0.5s;
+}
+
+
+
+ .half.dif-details{
+    font-weight: 900px;
+    width: 200px;
+    ;
+    text-align: center;
+ }
+ 
+  
